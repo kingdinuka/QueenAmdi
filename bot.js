@@ -91,7 +91,7 @@ setInterval(async () => {
             }
             else if (infosi !== '' && config.LANG == 'SI') {
                 while (getGMTh == 08 && getGMTm == 00) { 
-                    return QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '[ ```🔔Queen Amdi නිවේදන🔔``` ]\n\n' + infosi.replace('{user}', QueenAmdiCon.user.name).replace('{wa_version}', QueenAmdiCon.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', QueenAmdiCon.user.phone.os_version).replace('{device_model}', QueenAmdiCon.user.phone.device_model).replace('{device_brand}', QueenAmdiCon.user.phone.device_manufacturer), MessageType.text) 
+                    return QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '[ ```🔔King Dinuka නිවේදන🔔``` ]\n\n' + infosi.replace('{user}', QueenAmdiCon.user.name).replace('{wa_version}', QueenAmdiCon.user.phone.wa_version).replace('{version}', config.VERSION).replace('{os_version}', QueenAmdiCon.user.phone.os_version).replace('{device_model}', QueenAmdiCon.user.phone.device_model).replace('{device_brand}', QueenAmdiCon.user.phone.device_manufacturer), MessageType.text) 
                 }
             }
         })
@@ -119,7 +119,7 @@ setInterval(async () => {
     if (config.AUTO_BIO == 'true') {
         var tz_bio = await QueenAmdi.timezone(QueenAmdiCon.user.jid)
         var date = await QueenAmdi.datebio(config.LANG)
-        const biography = '📅 ' + date + '\n⌚ ' + tz_bio + '    🎖️ ' + config.CAP
+        const biography = '📅 ' + date + '\n⌚ ' + tz_bio + '    🎖️ ' + Dinuka Himsara
         await QueenAmdiCon.setStatus(biography)
     }
 }, 7890);
@@ -619,7 +619,7 @@ else if (config.LANG == 'SI') {
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _මාධ්‍යන් සකසා ගත නොහැකි වීම._' +
                                         '\n\n\n*හේතුව:* _LOG අංකය තුළ මාධ්‍ය මෙවලම් (xmedia, sticker..) භාවිතය._' +
@@ -628,7 +628,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Split සොයා ගත නොහැක_' +
                                         '\n\n*හේතුව:* _කණ්ඩායම් admin භාවිතා කළ හැකි විධානයන් සමහර විට split ක්‍රියාවලිය නොදකි._ ' +
@@ -637,7 +637,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Ookla Server QueenAmdiConection_' +
                                         '\n\n*හේතුව:* _සේවාදායකයට වේගවත්ම දත්ත සම්ප්‍රේෂණය කළ නොහැක._' +
@@ -646,7 +646,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Audio Params වැරදි වීම._' +
                                         '\n\n*හේතුව:* _හෝඩියේ පිටත TTS විධානය භාවිතා කිරීම._' +
@@ -655,7 +655,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n========== ```දෝෂ නිරාකරණය කර ඇත``` ==========' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _එවැනි folders නැත_' +
                                         '\n\n*හේතුව:* _Pluginයේ වැරදි කේතීකරණය._' +
@@ -664,7 +664,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Error 404 HTTPS_' +
                                         '\n\n*හේතුව:* _Heroku plugins යටතේ ඇති විධානයන් භාවිතා කිරීම හේතුවෙන් සේවාදායකයා සමඟ සන්නිවේදනය කිරීමට නොහැකි වීම._' +
@@ -673,7 +673,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Reply.delete function නොමැති වීම සහ දෙවරක් පිළිතුරු දීම_' +
                                         '\n\n*හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -682,7 +682,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Reply Delete Function_' +
                                         '\n\n*හේතුව:* _IMG හෝ Wiki විධානයන් භාවිතා කිරීම. (Official වට්ස්ඇප් භාවිතය.)_' +
@@ -691,7 +691,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Bailyes Action Error_ ' +
                                         '\n\n*හේතුව:* _නිශ්චිත හේතුව නොදනී. විකල්ප එකකට වඩා මෙම දෝෂය ඇති වීමට හේතු විය හැක._' +
@@ -700,7 +700,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Text හෝ මාධ්‍ය විකේතනය කළ නොහැක_' +
                                         '\n\n*හේතුව:* _වැරදි ලෙස භාවිතා කිරීම._' +
@@ -709,7 +709,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('500')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Media downloading error_' +
                                         '\n\n*හේතුව:* _වෙබ් අඩවිය අතර සම්බන්ධතාවය විසන්ධි විය._' +
@@ -718,7 +718,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('503')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _Media downloading error_' +
                                         '\n\n*හේතුව:* _වෙබ් අඩවිය අතර සම්බන්ධතාවය විසන්ධි විය._' +
@@ -727,7 +727,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ දෝෂ විශ්ලේෂණය [KING DINUKA] ⚜️*' + 
                                         '\n==== ```දෝෂ නිරාකරණය කර ඇත!``` ====' +
                                         '\n\n*ප්‍රධාන දෝෂය:* _වචන භාවිතය_' +
                                         '\n\n*හේතුව:* _English හෝඩියේ පිටත TTP, ATTP වැනි විධානයන් භාවිතා කිරීම._' +
