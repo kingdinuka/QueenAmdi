@@ -761,7 +761,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('split')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Split of Undefined_' +
                                         '\n\n*Reason:* _Commands that can be used by group admins occasionally dont see the split function._ ' +
@@ -770,7 +770,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('Ookla')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Ookla Server QueenAmdiConection_' +
                                         '\n\n*Reason:* _Speedtest data cannot be transmitted to the server._' +
@@ -779,7 +779,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('params')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Requested Audio Params_' +
                                         '\n\n*Reason:* _Using the TTS command outside the Latin alphabet._' +
@@ -788,7 +788,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unlink')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved``` ==========' +
                                         '\n\n*Main Error:* _No Such File or Directory_' +
                                         '\n\n*Reason:* _Incorrect coding of the plugin._' +
@@ -797,7 +797,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('404')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Error 404 HTTPS_' +
                                         '\n\n*Reason:* _Failure to communicate with the server as a result of using the commands under the Heroku plugin._' +
