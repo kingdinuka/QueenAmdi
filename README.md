@@ -19,7 +19,7 @@
 
 #  Bot Deploy කිරීම සදහා
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/&template=https://github.com/kingdinuka/kingdinuka.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Sew01RaviduManoj01KingAndQueen/QueenSew&template=https://github.com/kingdinuka/QueenAmdi.git)
 
 
 
