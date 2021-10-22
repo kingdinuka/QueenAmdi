@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://i.ibb.co/r3wmpwr/LOGO.jpg" width="300" height="300">
-  <h1>👸💎💎 QUEEN AMDI BOT 💎👸</h1>
+  <h1> 🤖🤖 KING DINUKA BOT 💎👸</h1>
 </div>
 <p align="center">
     Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
@@ -11,11 +11,19 @@
 </p>
 
 ----
-<div align="center">
-	<h1>Visit our official website to install the Whatsapp Bot :</h1>
-	<a href="https://www.amdaniwasa.com">
-<img src="https://images.squarespace-cdn.com/content/v1/580515742e69cfedd1fbef58/1525386767826-Z6T2PAXQD6PZJFNGY14U/ke17ZwdGBToddI8pDm48kGzbt7cz3CKX9Rsta-RdWeJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwXPcCdCfJzTjuw7eD5qoJaUvNnrlJ7-JqE3xnP9OqaaXMr3zNNd3H5Lklmgn1mB80/getbutton.png" width="400"></br></a>
-</div>
+# 👑 King Dinuka Qr කේතය ලබා ගැනීමට පහත රූපය මත click කරන්න
+
+ 
+
+[![Run on Repl.it](https://raw.githubusercontent.com/Sew01RaviduManoj01KingAndQueen/QueenSew/master/resources/gif/qr-scan.gif)](https://replit.com/@yasasdileepa/King-Dinuka?v=1)
+
+#  Bot Deploy කිරීම සදහා
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/&template=https://github.com/kingdinuka/kingdinuka.git)
+
+
+
+
 
 <p align="center">
   <a href="https://github.com/BlackAmda/QueenAmdi"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?style=flat-square&label=Docker pulls&query=count&url=https://github.com/agentnox/adadafafafaf/blob/main/automated_repo.json?raw=True&logo=github"></a>
@@ -77,15 +85,22 @@ Usage is entirely the responsibility of the user. The operating system is not re
 HAVE A FUN!
 ```
 
-## Visit our official website to install the Whatsapp Bot :
-QR Code generator and full instructions available there.
-<div>
-	<a href="https://www.amdaniwasa.com">
-<img src="https://i.ibb.co/dr27VyW/59060c190cbeef0acff9a657.png" width="200"></br></a>
-</div>
+
+ 
 
 
-									</table>
+
+
+
+
+    
+    
+  ## මෙය Dinuka Tech Youtube channel එක විසින් නිකුත් කරන ලද්දකි
+
+
+
+
+									
 
 ### License
 This project is protected by the `GNU General Public License v3.0.`
