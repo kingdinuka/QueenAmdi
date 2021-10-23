@@ -10,17 +10,20 @@
     <br>
 </p>
 
+## 👑 BOT සෑදීමට අවශ්‍ය password , deploy කරන link එක ලබාගන්න සහ හරියට bot සෑදිම වැනි දේවල් ලබා ගැනීමට පහත රූපය මත click කරන්න 
+
+> [<a href="https://imgbb.com/"><img src="https://i.ibb.co/DgkXYJS/3zk-P2-SYe7y-Yo-KKe47bs-Ne44y-Tgb4-Ukh-r-Bbw-Xwgkj-NRe4-Pyk-GG409oz-Bxzxkrub-V7z-HKjfxq6y9-Shog-Wt-M.jpg" alt="3zk-P2-SYe7y-Yo-KKe47bs-Ne44y-Tgb4-Ukh-r-Bbw-Xwgkj-NRe4-Pyk-GG409oz-Bxzxkrub-V7z-HKjfxq6y9-Shog-Wt-M" border="0"></a>](https://youtube.com/channel/UC-P4xVFvCgqQuUx9PrN2DIA)
+
+
 ----
 # 👑 King Dinuka Qr කේතය ලබා ගැනීමට පහත රූපය මත click කරන්න
 
-> [<a href="https://imgbb.com/"><img src="https://i.ibb.co/DgkXYJS/3zk-P2-SYe7y-Yo-KKe47bs-Ne44y-Tgb4-Ukh-r-Bbw-Xwgkj-NRe4-Pyk-GG409oz-Bxzxkrub-V7z-HKjfxq6y9-Shog-Wt-M.jpg" alt="3zk-P2-SYe7y-Yo-KKe47bs-Ne44y-Tgb4-Ukh-r-Bbw-Xwgkj-NRe4-Pyk-GG409oz-Bxzxkrub-V7z-HKjfxq6y9-Shog-Wt-M" border="0"></a>](https://youtube.com/channel/UC-P4xVFvCgqQuUx9PrN2DIA)
 
 [![Run on Repl.it](https://raw.githubusercontent.com/Sew01RaviduManoj01KingAndQueen/QueenSew/master/resources/gif/qr-scan.gif)](https://replit.com/@yasasdileepa/King-Dinuka?v=1)
 
 #  Bot Deploy කිරීම සදහා
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Sew01RaviduManoj01KingAndQueen/QueenSew&template=https://github.com/kingdinuka/QueenAmdi.git)
-
+## ඉහත VIDEO ව නරඹා Deploy කරන link එක ලබාගන්න
 
 
 
