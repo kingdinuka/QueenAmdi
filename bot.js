@@ -417,7 +417,7 @@ else if (config.LANG == 'SI') {
                 }
                 else {
 
-                await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*Queen ඇම්ඩි private ආකාරයට ක්‍රියාකිරිම ආරම්භ විය.👸*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=public``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : https://www.amdaniwasa.com/*\n\n*Queen Amdi සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Queen ඇම්ඩි භාවිතා කිරීම ගැන ස්තූතියි 💌*', MessageType.text);
+                await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*KING DINUKA private ආකාරයට ක්‍රියාකිරිම ආරම්භ විය.👸*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot private ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=public``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : https://www.amdaniwasa.com/*\n\n*KING DINUKA සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *KING DINUKA භාවිතා කිරීම ගැන ස්තූතියි 💌*', MessageType.text);
                 }
             }
         
@@ -426,7 +426,42 @@ else if (config.LANG == 'SI') {
         }
     });
 }
-// ==============================================================
+  // ==================== Password Checking ====================
+        console.log(
+            chalk.blueBright.italic('✨PASSWORD CHECKING✨')
+        );
+        if (Dinuka.SEWRR == ppw) {
+        
+        console.log(
+            chalk.green.bold('Password Done')
+        );
+         }
+         else if (Dinuka.SEWRR !== ppw) {
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         console.log(
+            chalk.red.bold('⚠⚠Password Incorrect⚠⚠'));
+         throw new Error("Wrong password !!");
+         
+         return;
+         }
+        // ==================== End Check ====================
+        
+    // ==============================================================
 
     QueenAmdiCon.on('message-new', async msg => {
         if (msg.key && msg.key.remoteJid == 'status@broadcast') return;
@@ -806,7 +841,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('reply.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function. And Double replying_' +
                                         '\n\n*Reason:* _Using IMG or Wiki commands. (May be using official Whatsapp)_' +
@@ -815,7 +850,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('load.delete')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Reply Delete Function_' +
                                         '\n\n*Reason:* _Using IMG or Wiki commands._' +
@@ -824,7 +859,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('400')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Bailyes Action Error_ ' +
                                         '\n\n*Reason:* _The exact reason is unknown. More than one option may have triggered this error._' +
@@ -833,7 +868,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('decode')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Cannot Decode Text or Media_' +
                                         '\n\n*Reason:* _Incorrect use of the plug._' +
@@ -842,7 +877,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('500')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKAI] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
                                         '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
@@ -851,7 +886,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('503')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Media downloading error_' +
                                         '\n\n*Reason:* _QueenAmdiConection between site disQueenAmdiConected._' +
@@ -860,7 +895,7 @@ else if (config.LANG == 'SI') {
                                     );
                                 }
                                 else if (error.message.includes('unescaped')) {
-                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [QUEEN AMDI] ⚜️*' + 
+                                    return await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*⚜️ ERROR ANALYSIS [KING DINUKA] ⚜️*' + 
                                         '\n========== ```Error Resolved!``` ==========' +
                                         '\n\n*Main Error:* _Word Character Usage_' +
                                         '\n\n*Reason:* _Using commands such as TTP, ATTP outside the Latin alphabet._' +
