@@ -19,7 +19,7 @@
 
 #  Bot Deploy කිරීම සදහා
 
-[![Deploy](content://com.google.android.apps.searchlite.downloads/downloadfile/elements-buttons-2-4867044559069b937ba0fd078f5604f310a49928bd1b59fb3d2f0ff96e0d97c8(0).svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Sew01RaviduManoj01KingAndQueen/QueenSew&template=https://github.com/kingdinuka/QueenAmdi.git)
+[![https://www.herokucdn.com/deploy/button.svg7c8(0).svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Sew01RaviduManoj01KingAndQueen/QueenSew&template=https://github.com/kingdinuka/QueenAmdi.git)
 
 
 
