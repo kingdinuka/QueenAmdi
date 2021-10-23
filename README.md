@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.ibb.co/r3wmpwr/LOGO.jpg" width="300" height="300">
+  <img src="<a href="https://ibb.co/crD8FYK"><img src="https://i.ibb.co/3CBFNR5/Screenshot-20211023-181400.jpg" alt="Screenshot-20211023-181400" border="0"></a>"
   <h1> 🤖🤖 KING DINUKA BOT 💎👸</h1>
 </div>
 <p align="center">
