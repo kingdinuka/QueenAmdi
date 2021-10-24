@@ -8,15 +8,13 @@
 
 <p align="center">
 
-    Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
+  Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
+   <br>
 
-    <br>
+  <a href="https://chat.whatsapp.com/LYk6el7Ief41N2ypxVqcXD">Whatsapp Group</a> |
 
-        <a href="https://chat.whatsapp.com/LYk6el7Ief41N2ypxVqcXD">Whatsapp Group</a> |
-
-        <a href="https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ">Youtube Channel</a>
-
-    <br>
+  <a href="https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ">Youtube Channel</a>
+   <br>
 
 </p>
 
