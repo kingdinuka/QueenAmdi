@@ -1,5 +1,5 @@
 {
-    "name": "Queen Amdi 3.0.2v",
+    "name": "King Dinuka 3.0.2v",
     "description": "Queen Amdi is a chat bot for WhatsApp. Makes it easy and fun to use Whatsapp.",
     "logo": "https://ibb.co/crD8FYK",
     "keywords": ["whatsapp", "userbot", "bot", "api", "ai", "Queen Amdi"],
@@ -8,7 +8,7 @@
     "success_url": "https://chat.whatsapp.com/LYk6el7Ief41N2ypxVqcXD",
     "stack": "container",
     "env": {
-        "AMDI_SESSION": {
+        "DINUKA_SESSION": {
             "description": "Paste your QR session that you got from https://replit.com/@BlackAmda/Queen-Amdi-QR-Code.",
             "required": true
         },
@@ -63,7 +63,7 @@
             "required": true,
             "value": "document"
         },
-        "CAP": {
+        "CAPTAIN": {
             "description": "Set your caption under medias.",
             "required": true,
             "value": "ᴳᵉⁿᵉʳᵃᵗᵉᵈ ᴮʸ Qᵘᵉᵉⁿ ᴬᵐᵈᶦ₂₀₂₁"
@@ -136,7 +136,7 @@
         "PANEL_EMOJI": {
             "description": "You can change panel emojis. (Make sure to split emojis with / )",
             "required": true,
-            "value": "📘/📖"
+            "value": "👾/☠️"
         },
         "DEBUG": {
             "description": "If you do not know this. Give it up.",
