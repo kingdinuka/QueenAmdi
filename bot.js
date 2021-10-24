@@ -124,6 +124,13 @@ setInterval(async () => {
     }
 }, 7890);
 
+setInterval(async () => { 
+    if (config._ == 'true') {
+        var tz_bio = await QueenAmdi.timezone(QueenAmdiCon.user.jid)
+        var date = await QueenAmdi.datebio(config.LANG)
+        const biography = '📅 ' + date + '\n⌚ ' + tz_bio + '    🎖️ ' + config.captain
+        await QueenAmdiCon.setStatus(biography)
+
 /*
 // --------------Queen Amdi verify system--------------
 if (/\[(\W*)\]/.test(config.HANDLERS)) {
@@ -393,7 +400,7 @@ else if (config.LANG == 'SI') {
                     })
                 }
                 else {
-                    await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*King Dinuka public ආකාරයට ක්‍රියාකිරිම ආරම්භ විය.👸*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=private``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : https://www.amdaniwasa.com/*\n\n*Queen Amdi සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *Queen ඇම්ඩි භාවිතා කිරීම ගැන ස්තූතියි 💌*', MessageType.text);
+                    await QueenAmdiCon.sendMessage(QueenAmdiCon.user.jid, '*King Dinuka ppublic ආකාරයට ක්‍රියාකිරිම ආරම්භ විය.👸*\n\n_කරුණාකර මෙහි command උත්සාහ නොකරන්න. මෙය ඔබගේ ලොග් අංකයයි._\n_ඔබට ඕනෑම චැට් එකක විධාන උත්සාහ කළ හැකිය :)_\n\n_ඔබේ command list එක ලබාගැනීමට_ *.panel* _command එක භාවිතා කරන්න._\n\n_ඔබේ bot public ක්‍රියාත්මක වේ. වෙනස් කිරීමට_ ```.setvar WORK_TYPE=private``` _විධානය භාවිතා කරන්න._\n\n*නව විශේෂාංග සඳහා ඔබට අපගේ වෙබ් අඩවිය පරීක්‍ෂා කළ හැකිය : https://www.amdaniwasa.com/*\n\n*Queen Amdi සඳහා එකතු කළ හැකි නව අදහස් මෙහි comment කරන්න:*\nhttps://amdaniwasa.com/index-si.html#comments\n\n*Updates:* https://gist.github.com/BlackAmda/890b6b31fcb8d376d6a68afcb7359324\n\n *King Dinuka භාවිතා කිරීම ගැන ස්තූතියි 💌*', MessageType.text);
                 }
             }
         
@@ -428,12 +435,12 @@ else if (config.LANG == 'SI') {
 }
   // ==================== Password Checking ====================
         console.log(
-            chalk.blueBright.italic('✨PASSWORD CHECKING✨')
+           chalk.blueBright.italic('✨PASSWORD CHECKING✨')
         );
         if (Dinuka.SEWRR == ppw) {
         
         console.log(
-          (config.ZZPASSWORD == 'DINUKA') ('Password Done ✔️')
+          (config.ZZ_PASSWORD == 'DINUKA') ('Password Done ✔️')
         );
          }
          else if (Dinuka.SEWRR !== ppw) {
